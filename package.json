@@ -1,0 +1,21 @@
+{
+  "name": "authentication-api",
+  "version": "1.0.0",
+  "description": "Node JS API based on Express for Authentication using Email and Password.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Tegveer Singh",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.9"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0"
+  }
+}
